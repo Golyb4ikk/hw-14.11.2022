@@ -1,14 +1,10 @@
 public class Main {
     public static void main(String[] args) {
-        int passenger=59;
-        if (passenger>=103) {
-            System.out.println("Вагон полностью забит");
+        int age=17;
+        if (age>=18) {
+            System.out.println("Поздравляю с совершеннолетием!");
+        }else {
+            System.out.println("Возраст совершеннолетия еще не достигнут!");
         }
-        if (passenger<60) {
-            System.out.println("Есть сидячее место");
-        }
-        if (passenger>60&&passenger<=102) {
-            System.out.println("Есть стоячее место");
-        }
-        }
-}
+    }
+    }
